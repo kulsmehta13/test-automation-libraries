@@ -7,11 +7,12 @@ setup(
     install_requires=[
         'selenium',
         'paramiko',
+        'markdown',
     ],
     author='Kuldip Mehta',
     author_email='kulsmehta13@gmail.com',
     description='Basic libraries for test autoamtion',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', 'r').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/kulsmehta13/test-automation-libraries',
     license='MIT',
